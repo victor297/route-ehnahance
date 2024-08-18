@@ -1,0 +1,16 @@
+streamlit
+osmnx
+geopandas
+shapely
+numpy
+pandas
+requests
+matplotlib
+networkx
+rtree
+pyproj
+seaborn
+plotly
+ortools
+streamlit_folium
+streamlit-geolocation 
