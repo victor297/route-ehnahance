@@ -14,3 +14,4 @@ plotly
 ortools
 streamlit_folium
 streamlit-geolocation 
+scikit-learn
