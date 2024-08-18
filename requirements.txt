@@ -7,3 +7,6 @@ osmnx==1.9.4
 networkx==3.2.1
 ortools==9.10.4067
 streamlit-folium==0.22.0
+osmnx
+geopandas
+shapely
