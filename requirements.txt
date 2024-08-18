@@ -9,3 +9,6 @@ matplotlib
 networkx
 rtree
 pyproj
+seaborn
+plotly
+ortools
