@@ -12,7 +12,8 @@ from ortools.constraint_solver import routing_enums_pb2
 from streamlit_folium import folium_static
 
 # Streamlit app title
-st.title("Store Location Analysis and Route Optimization")
+st.write("AN ENHANCEMENT ON ROUTE DISTANCE ON ROAD TRANSPORTATION UNSING ARTIFICIAL INTELLIGENCE")
+st.write("Project By Okunuga Qudus Ayinde 20/47CS/01146")
 
 # Upload CSV file
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
