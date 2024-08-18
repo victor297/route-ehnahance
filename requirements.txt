@@ -12,3 +12,5 @@ pyproj
 seaborn
 plotly
 ortools
+streamlit_folium
+streamlit-geolocation 
