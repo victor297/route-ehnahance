@@ -49,7 +49,7 @@ if uploaded_file is not None:
     G = ox.add_edge_speeds(G)
     G = ox.add_edge_travel_times(G)
 
-    start_node = ox.distance.nearest_nodes(G, start[1], start[0])
+    start_node = ox.distance.nearest_nodes(G, start[1], start[0],method='kdtree')
     dtf["node"] = dtf[["y", "x"]].apply(lambda x: ox.distance.nearest_nodes(G, x[1], x[0]), axis=1)
     dtf = dtf.drop_duplicates("node", keep='first')
 
