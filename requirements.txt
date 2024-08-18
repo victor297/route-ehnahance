@@ -1,5 +1,5 @@
 streamlit
-osmnx
+osmnx==0.15.1
 geopandas
 shapely
 numpy
